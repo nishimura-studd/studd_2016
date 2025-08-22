@@ -1,0 +1,216 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color:#ffffff;
+    overflow:hidden;
+    font-family: 'Libre+Baskerville', serif;      
+}
+
+a:link{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #000000;
+}
+
+a:hover{
+    color: #cccccc;
+}
+
+a:active{
+    color: #000000;
+}
+
+/* ======================================================
+// TOP
+// ------------------------------------------------------ */
+
+#works{ 
+    position: absolute;
+    color: #000000;     
+    font-size: 18px;
+    font-style: italic;         
+    line-height: 40px;
+    text-align:justify;
+    padding: 10px;  
+    opacity: 1;  
+}
+
+#works small{ 
+    color: #000000;      
+    font-size: 10px;
+    font-style: italic;         
+}
+
+#webgl{
+    position: absolute; 
+    display: none;   
+}
+
+#close{
+    position: relative; 
+    float: right;  
+    color: #ffffff;     
+    top:-120px;  
+    width: 0;
+    height: 0;
+    border-top: 60px solid #000;
+    border-right: 60px solid #000;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid transparent; 
+    cursor: pointer;
+}
+
+#arrow{
+    position: absolute;   
+    left: 62px;
+    top:-30px;
+    color: #ffffff;     
+    width: 0;
+    height: 0;
+    cursor: pointer;
+/*    display: none;*/
+}
+
+/* ======================================================
+// DETAIL
+// ------------------------------------------------------ */
+
+#detail{
+    position: absolute;
+    top:16%;
+    display: none;      
+}
+
+#title{
+    position: relative;  
+    width: 100%; 
+    padding-left: 10px; 
+    font-size: 60px;        
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    display: none;       
+}
+
+#date{
+    position: relative;  
+    padding-top: 20px;
+    padding-left: 10px; 
+    font-size: 14px;   
+    font-style: italic;    
+    display: none;        
+}
+
+#skill{
+    position: relative; 
+    padding-top: 10px;     
+    padding-left: 10px; 
+    font-size: 14px; 
+    font-style: italic; 
+    display: none;                        
+}
+
+#link{
+    position: relative; 
+    padding-top: 10px;       
+    padding-left: 10px; 
+    font-size: 14px;  
+    font-style: italic;  
+    display: none;                 
+}
+
+/* ======================================================
+// FOOTER
+// ------------------------------------------------------ */
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: none;    
+}
+
+#logo{ 
+    float: left;
+    padding-left: 10px;    
+    padding-bottom: 20px;
+}
+
+#logo_en{ 
+    font-size: 40px;
+    font-style: italic;
+}
+
+#logo_ja{ 
+    font-size: 10px;
+}
+
+#lastupdate{ 
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    font-size: 10px;    
+    font-style: italic;     
+}
+
+/* ======================================================
+// SP
+// ------------------------------------------------------ */
+
+@media screen and (max-width: 769px) {
+
+    #works{ 
+        font-size: 12px; 
+        line-height: 25px;              
+    }
+
+    #works small{     
+        font-size: 10px;      
+    }  
+
+    #close{  
+        top:-60px;  
+        border-top: 30px solid #000;
+        border-right: 30px solid #000;
+        border-bottom: 30px solid transparent;
+        border-left: 30px solid transparent; 
+    }
+
+    #arrow{   
+        top:-16px;
+        font-size: 10px;         
+    }
+
+    #title{
+        font-size: 30px;              
+    }
+
+    #date{
+        font-size: 10px;         
+    }
+
+    #skill{
+        font-size: 10px;                     
+    }
+
+    #link{
+        font-size: 10px;                 
+    }
+
+    #logo_en{ 
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    #logo_ja{ 
+        font-size: 10px;
+    }  
+
+    #lastupdate{ 
+        font-size: 10px;      
+    }        
+}
