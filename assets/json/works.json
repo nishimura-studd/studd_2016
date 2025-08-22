@@ -4,7 +4,7 @@
             {
                 "id": 9,                
                 "title": "LEGENDS STADIUM",
-                "url": "http://www.legendsstadium.com", 
+                "url": "", 
                 "skill": "Javascript",  
                 "year": 2014, 
                 "images":[0,1,2,3,4,5]                                                              
@@ -12,7 +12,7 @@
             {
                 "id": 8,                   
                 "title": "adidas boost around-the-globe machine",
-                "url": "https://www.youtube.com/watch?v=S6AkF_tMdQk", 
+                "url": "", 
                 "skill": "Flash",  
                 "year": 2014, 
                 "images":[0,1,2,3,4,5]                                                              
@@ -28,7 +28,7 @@
             {
                 "id": 6,                   
                 "title": "SNAKE GAME!",
-                "url": "http://studd.jp/_new_year_2013/", 
+                "url": "http://studd.jp/__archive/_new_year_2013/", 
                 "skill": "Javascript",  
                 "year": 2013,  
                 "images":[0,1,2,3,4,5]                                                               
@@ -36,7 +36,7 @@
             {
                 "id": 5,                   
                 "title": "Animals",
-                "url": "http://studd.jp/_animals/", 
+                "url": "http://studd.jp/__archive/_animals/", 
                 "skill": "Javascript",  
                 "year": 2012,
                 "images":[]                                                                 
@@ -44,7 +44,7 @@
             {
                 "id": 4,                   
                 "title": "Halloween",
-                "url": "http://studd.jp/_halloween_2012/", 
+                "url": "http://studd.jp/__archive/_halloween_2012/", 
                 "skill": "Javascript",  
                 "year": 2012, 
                 "images":[]                                                                
@@ -52,7 +52,7 @@
             {
                 "id": 3,                   
                 "title": "withPhoto scrappin",
-                "url": "http://kids.withphoto.jp/scrappin/", 
+                "url": "", 
                 "skill": "Flash",  
                 "year": 2012, 
                 "images":[0,1,2,3,4,5]                                                                
@@ -60,7 +60,7 @@
             {
                 "id": 2,                   
                 "title": "STOP MAKING SENSE",
-                "url": "http://studd.jp/_new_year_2012/", 
+                "url": "", 
                 "skill": "Flash",  
                 "year": 2012, 
                 "images":[0,1,2,3,4,5]                                               
@@ -76,7 +76,7 @@
             {
                 "id": 0,                   
                 "title": "ORIENTAL ZODIAC COUNT UP",
-                "url": "http://studd.jp/_new_year_2011/", 
+                "url": "", 
                 "skill": "Flash",  
                 "year": 2011,
                 "images":[]                                                                
